@@ -10,8 +10,9 @@
 
 <p align="center">
   <a href="#links"><img alt="Backers on Open Collective" src="https://img.shields.io/badge/links-1-brightgreen.svg"></a>
-  <a href="#features"><img alt="Sponsors on Open Collective" src="https://img.shields.io/badge/features-1-brightgreen.svg"></a>
-  
+  <a href="#features"><img alt="Sponsors on Open Collective" src="https://img.shields.io/badge/features-7-brightgreen.svg"></a>
+  <a href="#plugin-functions"><img alt="Sponsors on Open Collective" src="https://img.shields.io/badge/SQL Functions-1-brightgreen.svg"</a>
+  <a href="#allowed-tables-with-example"><img alt="Sponsors on Open Collective" src="https://img.shields.io/badge/Allowed Tables-1-brightgreen.svg">
 
 # Links
 
@@ -19,7 +20,13 @@
 
 # Features
 
-- [Hello World]<a href="#helloworld">Guide</a>
+- [Hello World]
+- [UserID]
+- [Protect]
+- [Credits]
+- [Diamonds]
+- [Item]
+- [SQLInsert]
 
 # Sample
 ```
