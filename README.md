@@ -13,19 +13,22 @@
   <a href="#features"><img alt="Sponsors on Open Collective" src="https://img.shields.io/badge/features-1-brightgreen.svg"></a>
   
 
-## Links
+# Links
 
 - [Hotel](https://elaf.it)
 
-## Features
+# Features
 
 - [Hello World]<a href="#helloworld">Guide</a>
 
 
 
-## Plugin Commands
+# Plugin Commands
 
-# HelloWorld Guide
+## HelloWorld Guide
   $Plugin->helloWorld();
+| Function                                         | Description                              |
+| ------------------------------------------------ | ---------------------------------------- |
+| [HelloWorld] $Plugin->helloWorld();              | 📜 Returns Hello World                   |
 
 
