@@ -23,11 +23,9 @@
 
 
 
+## Plugin Commands
 
-
-##PLUGIN COMMANDS GUIDE##
-
-##HelloWorld
+# HelloWorld Guide
   $Plugin->helloWorld();
 
 
