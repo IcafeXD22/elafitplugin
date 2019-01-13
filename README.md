@@ -26,9 +26,8 @@
 # Plugin Commands
 
 ## HelloWorld Guide
-  $Plugin->helloWorld();
-| Function                                         | Description                              |
-| ------------------------------------------------ | ---------------------------------------- |
-| [HelloWorld] $Plugin->helloWorld();              | 📜 Returns Hello World                   |
+| Function                            	| Description           	|
+|-------------------------------------	|-----------------------	|
+| [HelloWorld] $Plugin->helloWorld(); 	| 📜 Returns Hello World 	|
 
 
