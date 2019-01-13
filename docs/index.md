@@ -1,3 +1,5 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +12,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      
+      //...
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
