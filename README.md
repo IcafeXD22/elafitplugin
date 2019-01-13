@@ -24,9 +24,8 @@
 
 
 # Plugin Functions
-| Function     	| Description              	| Use                    	| Returns 	|
-|--------------	|--------------------------	|------------------------	|---------	|
-| ##HelloWorld 	| Returns Echo for Testing 	| $Plugin->helloWorld(); 	| echo    	|
-|              	|                          	|                        	|         	|
-
+| Function   	| Description              	| Use                    	| Returns 	|
+|------------	|--------------------------	|------------------------	|---------	|
+| HelloWorld 	| Returns Echo for Testing 	| $Plugin->helloWorld(); 	| echo    	|
+|            	|                          	|                        	|         	|
 
