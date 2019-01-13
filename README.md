@@ -23,9 +23,7 @@
 
 
 
-# Plugin Commands
-
-## HelloWorld Guide
+# Plugin Functions
 | Function                            	| Description           	|
 |-------------------------------------	|-----------------------	|
 | [HelloWorld] $Plugin->helloWorld(); 	| 📜 Returns Hello World 	|
