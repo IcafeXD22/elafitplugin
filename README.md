@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="#links"><img alt="Backers on Open Collective" src="https://opencollective.com/docsify/links/badge.svg?style=flat-square"></a>
-  <a href="#features"><img alt="Sponsors on Open Collective" src="https://opencollective.com/docsify/Features/badge.svg?style=flat-square"></a>
+  <a href="#links"><img alt="Backers on Open Collective" src="https://img.shields.io/badge/links-1-brightgreen.svg"></a>
+  <a href="#features"><img alt="Sponsors on Open Collective" src="https://img.shields.io/badge/features-1-brightgreen.svg"></a>
   
 
 ## Links
@@ -19,6 +19,15 @@
 
 ## Features
 
-- No statically built html files
+- [Hello World]<a href="#helloworld">Guide</a>
+
+
+
+
+
+##PLUGIN COMMANDS GUIDE##
+
+##HelloWorld
+  $Plugin->helloWorld();
 
 
