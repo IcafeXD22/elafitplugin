@@ -36,12 +36,29 @@
 ```
 
 # Plugin Functions
-| Function   	| Description                    	| Use                                                   	| Returns 	|
-|------------	|--------------------------------	|-------------------------------------------------------	|---------	|
-| HelloWorld 	| Returns Echo for Testing       	| $Plugin->helloWorld();                                	| echo    	|
-| UserID     	| Returns User ID as INT         	| $Plugin->getUserID();                                 	| int     	|
-| Protect    	| Protect String for SQL or POST 	| $Plugin->Protect(string) (string "string to Protect") 	| string  	|
-| Credits    	| Give or Take Credits           	| $Plugin->Credits(string, int) (string "give, take")   	|         	|
-| Diamonds   	| Give or Take Diamonds          	| $Plugin->Diamonds(string, int) (string "give, take")  	|         	|
-| Item       	| Give Item                      	| $Plugin->Item(int) (int "ItemID")                     	|         	|
+| Function   	| Description                    	| Use                                                                                     	| Returns              	|
+|------------	|--------------------------------	|-----------------------------------------------------------------------------------------	|----------------------	|
+| HelloWorld 	| Returns Echo for Testing       	| $Plugin->helloWorld();                                                                  	| echo                 	|
+| UserID     	| Returns User ID as INT         	| $Plugin->getUserID();                                                                   	| int                  	|
+| Protect    	| Protect String for SQL or POST 	| $Plugin->Protect(string) (string "string to Protect")                                   	| string               	|
+| Credits    	| Give or Take Credits           	| $Plugin->Credits(string, int) (string "give, take")                                     	|                      	|
+| Diamonds   	| Give or Take Diamonds          	| $Plugin->Diamonds(string, int) (string "give, take")                                    	|                      	|
+| Item       	| Give Item                      	| $Plugin->Item(int) (int "ItemID")                                                       	|                      	|
+| SQLInsert  	| Insert into allowed SQL Tables 	| $Plugin->SQLInsert(string, array) (string "allowed Table", array "see under SQL Guide") 	| false if not allowed 	|
 
+
+# SQL Functions
+## Insert
+	Sample:
+		$Plugin->SQLInsert('AllowedTable', array('column' => 'value', 'column2' => 'value2'));
+
+
+
+# Allowed Tables (with Example)
+## CMS_NEWS
+### Table
+| id   	| title  	| short_story 	| long_story 	| author 	| timestamp 	| image  	| published        	| room             	| views            	|
+|------	|--------	|-------------	|------------	|--------	|-----------	|--------	|------------------	|------------------	|------------------	|
+| Auto 	| String 	| String      	| Text       	| String 	| Timestamp 	| String 	| int (Default: 1) 	| int (Default: 0) 	| int (Default: 0) 	|
+### Sample
+$Plugin->SQLInsert('cms_news', array('title'	=>	'TEST', 'short_story' => 'ABC', 'long_story' => 'lang', 'author' => 'JOJO', 'timestamp' => time(), 'image' => 'abc.png'));
